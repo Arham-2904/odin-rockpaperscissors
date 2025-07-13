@@ -58,6 +58,7 @@ function playRound(humanScore, computerScore){
         console.log("It's a tie.")
     }
 
+    prompt("Human Score: " + humanScore + " Computer Score: " + computerScore)
     console.log("Human Score: " + humanScore + " Computer Score: " + computerScore)
     return [humanScore, computerScore];
 }
